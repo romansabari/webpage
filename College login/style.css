@@ -1,0 +1,68 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(banner.png);
+    background-size: cover;
+}
+.box{
+    background-color:rgb(253, 240, 223);
+    width:350px;
+    height:490px;
+    margin-top:130px;
+    margin-left:100px;
+    box-sizing: border-box;   
+    padding:50px 30px;
+    position:relative;
+    border-radius: 20px;
+}
+img{
+    width:100px;
+    height:100px;
+    left:120px;
+    top:-50px;
+    border-radius: 50%;
+    position: absolute;
+    }
+h2{
+    text-align: center;
+}
+.one{
+    color:crimson;
+    font-size:25px;
+    font-weight: bold;
+}
+button{
+    margin-left:80px;
+    margin-top:20px;
+    padding:10px 50px;
+    border-radius: 40px;
+   border:none;
+    background-color: black;
+    color:whitesmoke;
+}
+
+button:hover{
+    background-color: cyan;
+    color:black;
+    cursor:pointer;
+}
+input{
+    padding:8px;
+    border-radius: 7px;
+    outline: none;
+    border:1px solid black;
+    font-weight: bold;
+}
+#errorbox{
+    color:red;
+    font-weight: 60px;
+}
+a{
+    text-decoration: none;
+    color:brown;
+    text-align: end;
+}
+a:hover{
+    color:green;
+    cursor: pointer;
+}
