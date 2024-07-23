@@ -1,0 +1,44 @@
+body{
+    background-image:url("cover.jpg ");
+}
+.regform{
+    background-color:rgb(0,0,0,.5);
+    width:400px;
+    margin:100px auto 100px;
+    color:white;
+    padding:30px 40px 30px;
+    font-size:30px;
+    border-radius:8PX;
+    }
+    h2{
+        text-align:center;
+    }
+    .regform .tex{
+        display:block;
+    }
+  .input input{
+    width:400px;
+    font-size:20px;
+    border-radius:8px;
+    padding:10px 6px;
+  }
+  .input input:hover{
+    background-color:black;
+    color:white;
+  }
+.radio input{
+    transform:scale(1.4);
+}
+.btn{
+    text-align: center;
+}
+button{
+    padding:10px 40px 10px;
+    margin-top:40px;
+    background-color:gray;
+    color:black;
+    font-weight:bold;
+    border-radius:10px;
+
+}
+    
